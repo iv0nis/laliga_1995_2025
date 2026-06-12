@@ -101,14 +101,14 @@ De los módulos que tocan los tests, lo único que queda sin cubrir es la gráfi
 
 ## Subir el proyecto a GitHub
 
-Con un repositorio vacío ya creado en GitHub, desde la raíz del proyecto:
+El proyecto está subido en [github.com/iv0nis/laliga_1995_2025](https://github.com/iv0nis/laliga_1995_2025). Con un repositorio vacío ya creado en GitHub, los comandos usados desde la raíz del proyecto:
 
 ```bash
 git init
 git add .
 git commit -m "PEC4: análisis de LaLiga 1995-2025"
 git branch -M main
-git remote add origin https://github.com/<usuario>/laliga_1995_2025.git
+git remote add origin https://github.com/iv0nis/laliga_1995_2025.git
 git push -u origin main
 ```
 
