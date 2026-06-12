@@ -101,7 +101,7 @@ De los módulos que tocan los tests, lo único que queda sin cubrir es la gráfi
 
 ## Subir el proyecto a GitHub
 
-El proyecto está subido en [github.com/iv0nis/laliga_1995_2025](https://github.com/iv0nis/laliga_1995_2025). Con un repositorio vacío ya creado en GitHub, los comandos usados desde la raíz del proyecto:
+El proyecto está subido en [github.com/iv0nis/laliga_1995_2025](https://github.com/iv0nis/laliga_1995_2025). Para subirlo se creó un repositorio vacío en GitHub y se ejecutó, desde la raíz del proyecto:
 
 ```bash
 git init
