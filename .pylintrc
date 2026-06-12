@@ -1,0 +1,3 @@
+[MASTER]
+# tests/ importa exercises desde src/, igual que hace tests_ex6.py en ejecución
+init-hook='import sys; sys.path.append("src")'

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module exercises.ex6</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="exercises.html" class="white">exercises</a>.ex6</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:/home/ivonis/gitkigai/DESARROLLO/Ciencia%20de%20Datos%20Aplicada%20%28UOC%29/Primero/programacion_para_la_ciencia_de_datos/contenidos/unidad_6/PEC4/laliga_1995_2025/src/exercises/ex6.py">/home/ivonis/gitkigai/DESARROLLO/Ciencia de Datos Aplicada (UOC)/Primero/programacion_para_la_ciencia_de_datos/contenidos/unidad_6/PEC4/laliga_1995_2025/src/exercises/ex6.py</a></td></tr></table>
+    <p><span class="code">Ejercicio&nbsp;6:&nbsp;Calcula&nbsp;goles&nbsp;totales,&nbsp;el&nbsp;resumen&nbsp;de&nbsp;1995-2025&nbsp;por&nbsp;equipo&nbsp;y&nbsp;la&nbsp;gráfica&nbsp;de&nbsp;podium.</span></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="exercises.config.html">exercises.config</a><br>
+</td><td class="multicolumn"><a href="pandas.html">pandas</a><br>
+</td><td class="multicolumn"><a href="matplotlib.pyplot.html">matplotlib.pyplot</a><br>
+</td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-fun_summary_1996_2025"><strong>fun_summary_1996_2025</strong></a>(
+    total_points_by_team: pandas.core.frame.DataFrame,
+    home_goals_by_team: pandas.core.frame.DataFrame,
+    away_goals_by_team: pandas.core.frame.DataFrame,
+    total_goals_by_team: pandas.core.frame.DataFrame
+) -&gt; pandas.core.frame.DataFrame</dt><dd><span class="code">Devuelve&nbsp;un&nbsp;dataframe&nbsp;con&nbsp;la&nbsp;concatenación&nbsp;de&nbsp;los&nbsp;4&nbsp;dataframes&nbsp;anteriores:<br>
+total_points_by_team,&nbsp;home_goals_by_team,&nbsp;away_goals_by_team&nbsp;y&nbsp;total_goals_by_team.</span></dd></dl>
+ <dl><dt><a name="-fun_total_goals"><strong>fun_total_goals</strong></a>(data: pandas.core.frame.DataFrame) -&gt; tuple[int, int, int]</dt><dd><span class="code">Devuelve&nbsp;una&nbsp;tupla&nbsp;con&nbsp;goles&nbsp;marcados&nbsp;en&nbsp;casa,&nbsp;fuera&nbsp;y&nbsp;el&nbsp;total.</span></dd></dl>
+ <dl><dt><a name="-fun_total_goals_by_team"><strong>fun_total_goals_by_team</strong></a>(data: pandas.core.frame.DataFrame) -&gt; tuple[pandas.core.frame.DataFrame, pandas.core.frame.DataFrame, pandas.core.frame.DataFrame]</dt><dd><span class="code">Devuelve&nbsp;una&nbsp;tupla&nbsp;de&nbsp;tres&nbsp;dataframes&nbsp;con&nbsp;los&nbsp;goles&nbsp;por&nbsp;equipo&nbsp;en&nbsp;casa,&nbsp;fuera&nbsp;y&nbsp;el&nbsp;total.</span></dd></dl>
+ <dl><dt><a name="-podium"><strong>podium</strong></a>(summary_1996_2025: pandas.core.frame.DataFrame) -&gt; None</dt><dd><span class="code">Genera&nbsp;una&nbsp;gráfica&nbsp;de&nbsp;podium&nbsp;con&nbsp;los&nbsp;3&nbsp;equipos&nbsp;con&nbsp;más&nbsp;puntos&nbsp;históricos.</span></dd></dl>
+</td></tr></table>
+</body></html>
