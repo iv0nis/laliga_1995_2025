@@ -1,4 +1,5 @@
-"""Ejercicio 2: Devuelve el número total de partidos de cada equipo en un dataframe."""
+"""Ejercicio 2: Calcula el número total de partidos de cada equipo
+y lo representa en un gráfico de barras."""
 import pandas as pd
 import matplotlib.pyplot as plt
 from . import config
@@ -14,7 +15,6 @@ def total_matches(data: pd.DataFrame) -> pd.DataFrame:
 
 def plot_matches_team_total(matches_team_total: pd.DataFrame) -> None:
     """Genera un gráfico de barras con el número total de partidos por equipo."""
-
     df_sorted = matches_team_total.sort_values('total_matches', ascending=False)
 
     fig, ax = plt.subplots(figsize=(14, 6))
